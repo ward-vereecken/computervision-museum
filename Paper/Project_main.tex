@@ -1,0 +1,45 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage{tabularx} % extra features for tabular environment
+\usepackage{amsmath}  % improve math presentation
+\usepackage{graphicx} % takes care of graphic including machinery
+\usepackage[margin=1in,letterpaper]{geometry} % decreases margins
+\usepackage{cite} % takes care of citations
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,        % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,     % color of file links
+	urlcolor=blue         
+}
+%++++++++++++++++++++++++++++++++++++++++
+\begin{document}
+\title{ Computer vision \protect\\ Project report \protect\\ Recognition based localization}
+\author{Baert Olivier, Callaert Arne, Hernou Arne, Vereecken Ward, Waegemans Wolfgang}
+% \date{9 februari 2021}
+\maketitle
+
+\begin{abstract}
+In this project, a program is created with the goal to localize a person based on captured video footage. To achieve this, first painting are detected in the footage frame by frame. These detected paintings are then matched with paintings in a database containing all the museum's paintings. Based on this matching, the person is localized on a map of the museum.
+\end{abstract}
+
+\section{Assignment 1: painting detection}
+
+In this assignment, the focus lies on detecting any shape in a given image that is most likely to be a painting, completely \textbf{unsupervised} (without any human intervention). 
+
+\section{Assignment 2: painting matching}
+
+\section{Assignment 3: localization}
+
+\section{Assignment 4: demo}
+
+%\begin{figure}
+	%\centering
+	%\centerline{
+%			\includegraphics[scale=0.47]{clouds}
+	%}
+	%\caption{\textit{clouds.png}, de input afbeelding}
+%\end{figure}
+%\label{fig:clouds-input}
+
+\end{document}
